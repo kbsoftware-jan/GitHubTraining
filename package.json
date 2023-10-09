@@ -1,0 +1,23 @@
+{
+  "name": "githubtraining",
+  "version": "1.0.0",
+  "description": "sfwf",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbsoftware-jan/GitHubTraining.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbsoftware-jan/GitHubTraining/issues"
+  },
+  "homepage": "https://github.com/kbsoftware-jan/GitHubTraining#readme"
+}
