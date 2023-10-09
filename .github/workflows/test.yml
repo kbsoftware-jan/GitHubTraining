@@ -1,0 +1,24 @@
+name: test
+
+on:
+  issues:
+    types: [edited]
+
+jobs:
+    create-file:
+        runs-on: ubuntu-latest
+    
+        steps:
+          - name: Checkout Repository
+            uses: actions/checkout@v2
+    
+          - name: Create File
+            run: |
+              echo "This is the content of the file" > newfile.txt
+              git add newfile.txt
+              git commit -m "Add newfile.txt"
+              git push origin main
+
+
+
+
